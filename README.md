@@ -17,6 +17,8 @@
  STEP:6 Click “run simulation” in the navigator window and click “Run behavioral simulation”.<br>
  STEP:7 Verify the output in the simulation window.<br>
 
+
+
 **2 BIT MULTIPLIER:**
 
 **LOGIC DIAGRAM:**
@@ -24,6 +26,7 @@
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
 **VERILOG CODE:**
+
 ```
 module HalfAdder(a,b,sum,carry);
 input a,b;
@@ -44,16 +47,19 @@ HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
 ```
-**OUTPUT:**
-![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-3/assets/160829667/1a721c5c-f47d-4061-9f86-b1aedb05d4b0)
 
+**OUTPUT:**
+
+![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-3/assets/160829667/1a721c5c-f47d-4061-9f86-b1aedb05d4b0)
 
 **4 BIT MULTIPLIER:**
 
 **LOGIC DIAGRAM:**
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 **VERILOG CODE:**
+
 ```
 module ha(s,c,a,b);
 input a,b;
@@ -109,7 +115,9 @@ fa fa7(p[5],c[11],w[14],s[6],c[10]);
 fa fa8(p[6],p[7],w[15],c[8],c[11]);
 endmodule
 ```
+
 **OUTPUT:**
+
 ![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-3/assets/160829667/4aa1b7bc-3e8c-4a89-9232-48deef62a808)
 
 **RESULT:**<br>
